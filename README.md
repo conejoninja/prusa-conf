@@ -1,0 +1,1 @@
+Set of configurations for my Prusa i3 Steel + Greg's extruder
