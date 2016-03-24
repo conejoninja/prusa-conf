@@ -75,7 +75,7 @@ Here are some standard links for getting your machine calibrated:
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "P3Steel 3DE"
+#define CUSTOM_MACHINE_NAME "LIMONES"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -400,7 +400,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 #define Z_MIN_POS 0
 #define X_MAX_POS 192
 #define Y_MAX_POS 192
-#define Z_MAX_POS 155
+#define Z_MAX_POS 180
 
 //===========================================================================
 //========================= Filament Runout Sensor ==========================
@@ -640,8 +640,8 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 // @section temperature
 
 // Preheat Constants
-#define PLA_PREHEAT_HOTEND_TEMP 180
-#define PLA_PREHEAT_HPB_TEMP 70
+#define PLA_PREHEAT_HOTEND_TEMP 200
+#define PLA_PREHEAT_HPB_TEMP 60
 #define PLA_PREHEAT_FAN_SPEED 0   // Insert Value between 0 and 255
 
 #define ABS_PREHEAT_HOTEND_TEMP 240
